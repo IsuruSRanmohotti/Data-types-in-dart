@@ -1,15 +1,15 @@
 void main() {
-  // Dart is a statically-typed language, which means that every variable must have a data type.
+  //Dart යනු statically-typed language එකකි, එනම් සෑම විචල්‍යයකටම දත්ත වර්ගයක්(Data type එකක්) තිබිය යුතුය.
   
-  // The basic data types in Dart are:
-  // - int: integers (whole numbers)
-  // - double: floating-point numbers (numbers with decimal places)
-  // - bool: boolean values (true or false)
-  // - String: sequences of characters
-  // - List: ordered collections of objects (arrays in other languages)
-  // - Map: unordered collections of key-value pairs (dictionaries in other languages)
+  // Dart හි ඇති මූලික දත්ත වර්ග (Data Types):
+  // - int: පූර්ණ සංඛ්‍යා
+  // - double: දශමස්ථාන සහිත සංඛ්‍යා
+  // - bool: බූලියන් අගයන් (true සහ false පමණයි)
+  // - String: විවිධ වර්ගයේ අකුරු , සංකේත , ඉලක්කම් (Characters) - මේවා 'text' ලෙස හෝ "text" ලෙස Assign කෙරේ.
+  // - List: වචන ඉලක්කම් වැනි  ඔ්නෑම Data type එකක Multiple Values රඳවා තබා ගැනීම සිදු කරයි.වෙනත් Programming Languages වල Arrays යන්නට සමානය.
+  // - Map: Key Value Pairs ලෙස දත්ත රඳවා තබාගනී.වෙනත් භාෂාවල Dictionaries යන සංකල්පයට සමානය
   
-  // Examples of declaring variables with different data types:
+  // විවිධ දත්ත වර්ග(Data types) සහිත විචල්‍ය (Variable) Declare කිරීම්:
   int age = 25;
   double temperature = 98.6;
   bool isRaining = true;
@@ -17,15 +17,15 @@ void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
   Map<String, int> scores = {"Alice": 95, "Bob": 85, "Charlie": 90};
   
-  // Dart also has some other data types that are more advanced:
-  // - dynamic: a type that can represent any value at runtime (used for interoperability with dynamic languages)
-  // - var: a keyword that can be used to declare a variable without specifying its type explicitly (the type is inferred from the value it's assigned)
-  // - Object: the root of the Dart class hierarchy (all other classes inherit from Object)
+  // Dart සතුව වඩාත් දියුණු දත්ත වර්ග කිහිපයක් ද ඇත:
+  // - dynamic: Run time එකේදී ඕනෑම Value එකක් නියෝජනය කළ හැකි Data type වර්ගයකි
+  // - var: Variable එකක Data type එක පැහැදිලිව සඳහන් නොකර ප්‍රකාශ කිරීමට භාවිතා කළ හැකි මූල පදයකි (Keyword) (Data type එක එයට පවරා ඇති අගයෙන් අනුමාන කෙරේ)
+  // - Object: Object යනු Class එකක ගුණාංග වෙත ප්‍රවේශ වීමට භාවිතා කරන Class එකෙහි Variable එකක් හෝ Instance එකකි
   
-  // Examples of using dynamic, var, and Object:
+  // dynamic , var, සහ Object භාවිතා කිරීමේ උදාහරණ:
   dynamic value = 42;
   var count = 10;
   Object obj = "hello";
   
-  // It's generally a good practice to use explicit data types whenever possible, as it makes your code more readable and less error-prone.
+  // හැකි සෑම විටම ගැලපෙන දත්ත වර්ගය Variable සමඟ භාවිතා කිරීම කේතයේ ගුණාත්මක භාවය ආරක්ෂා කරයි.
 }
